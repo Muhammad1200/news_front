@@ -1,9 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { setError } from "../Errors/Reducer";
 import { setList } from "./Reducer";
 import axios from "axios";
-import { eventOrderApi, newsApi, newsletterApi } from "../../Netwrok/api";
-import { responseError } from "../../Netwrok/responseHandler";
+import { newsApi } from "../../Netwrok/api";
 import { headers } from "../headers";
 import {objectToQueryString} from "../../constant/helpers";
 

@@ -1,7 +1,9 @@
-export const baseUrl = process.env.APP_API_BASE_URl;
-export const fileUrl = process.env.APP_API_URl;
+// import * as dotenv from 'dotenv';
+// dotenv.config();
+// console.log("ENV",process.env.APP_API_URl);
 
-
+export const baseUrl = process.env.REACT_APP_APP_API_URl;
+export const fileUrl = process.env.REACT_APP_APP_API_BASE_URL;
 
 export const getProfileApi = `${baseUrl}user/profile`;
 export const profileUpdateApi = `${baseUrl}user/profile/update`;
@@ -19,4 +21,4 @@ export const verifyOtpApi = `${baseUrl}auth/verify-otp`;
 export const forgotPasswordApi = `${baseUrl}auth/forgot-password`;
 export const signUpApi = `${baseUrl}auth/signup`;
 
-export const newsApi = (slug = '') => `${process.env.NEWS_API_URL}${(slug === '')?'everything':'top-headlines'}`;
+export const newsApi = (slug = '') => `${process.env.REACT_APP_NEWS_API_URL}${(slug === '')?'everything':'top-headlines'}`;

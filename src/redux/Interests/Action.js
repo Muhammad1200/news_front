@@ -1,9 +1,9 @@
 import {createAsyncThunk} from "@reduxjs/toolkit";
 import {setError} from "../Errors/Reducer";
 import axios from "axios";
-import {addInterestsApi, blogDetailApi, blogsApi, interestsApi} from "../../Netwrok/api";
+import {addInterestsApi, interestsApi} from "../../Netwrok/api";
 import {responseError} from "../../Netwrok/responseHandler";
-import {setBlog, setBlogs, setList} from "./Reducer";
+import {setList} from "./Reducer";
 import {headers} from "../headers";
 
 

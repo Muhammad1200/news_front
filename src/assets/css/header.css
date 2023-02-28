@@ -1,0 +1,405 @@
+.header {
+  /* position: fixed; */
+  top: 0px;
+}
+
+.header .home_link {
+  color: #272727;
+  text-decoration: none;
+  align-self: center;
+}
+
+.header .home_link:hover {
+  color: #b7111b;
+  cursor: pointer;
+}
+
+.header .header_image_icon {
+  height: 55px;
+  width: 100px;
+  object-fit: contain;
+  padding: 0.2rem 0;
+  margin-left: 18px;
+  background: #fff;
+}
+
+.header .profile_login_header {
+  display: flex;
+}
+
+.header a:hover {
+  color: #b7111b;
+}
+
+.header a:active {
+  color: #b7111b;
+}
+
+.header .home_link:focus {
+  color: #b7111b;
+}
+
+.header .gr-clr-hd:hover {
+  color: #b7111b;
+}
+
+.header .home_link:active {
+  color: #b7111b;
+}
+
+.header .gr-clr-hd:active {
+  color: #b7111b;
+}
+
+.header .gr-clr-hd {
+  color: #929292;
+}
+
+.home .header .clr-sml-hdr-top {
+  color: #fff;
+}
+
+.home .header .flx-header-box {
+  background-color: #fff0;
+}
+
+.home .header .clr-sml-hdr-top {
+  color: #fff;
+}
+
+.header .clr-sml-hdr-top {
+  color: #00171a;
+}
+
+.header .flx-header-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: max-content;
+  float: right;
+  padding-left: 1rem;
+}
+
+.header .color-red {
+  color: #e51b23;
+}
+
+.header .bg-white {
+  background-color: white;
+}
+
+.header .navigation-header-home {
+  display: flex;
+  box-shadow: 1px 2px 3px 0px #0000001f;
+  border-radius: 0px 20px 20px 20px;
+  width: 100%;
+  background: white;
+  border: 1px solid #00000008;
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+}
+
+.home .header .clr-gr {
+  color: #272727 !important;
+}
+
+.home .header .clr-sml-hdr-top {
+  color: #00171a;
+}
+
+.header .clr-sml-hdr-top {
+  color: white;
+}
+
+.header .align-self-center {
+  align-self: center !important;
+}
+
+.header .bt-red {
+  background-color: #e51b23;
+}
+
+.header .home-clr {
+  color: #b7111b;
+}
+
+.header .flx-2 {
+  flex: 2;
+}
+
+.header .justify-around {
+  justify-content: space-around !important;
+}
+
+.header .d-flex {
+  display: flex !important;
+}
+
+.header .brdr-right {
+  border-right: 2px solid #a1a1a1;
+}
+
+.css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop {
+  background-color: rgba(0, 27, 29, 0.6) !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.signin-page .bg-grad-login-header {
+  background-image: linear-gradient(to bottom, #ec1c24, #7a0511);
+}
+
+.signin-page .cursor_pointr {
+  cursor: pointer;
+}
+
+.signin-page .cursor_pointr:hover {
+  text-decoration: underline;
+}
+
+.signin-page .ico_mail_hdr {
+  position: relative;
+  top: -50px;
+  right: 23px;
+}
+
+.signin-page .pos-rel {
+  position: relative;
+}
+
+.signin-page .top20pxneg {
+  top: -20px;
+}
+
+.header .bt-cus-header {
+  padding: 0.7rem 1.5rem;
+  background-color: #df1921;
+}
+
+/* checkbox clr ends */
+
+.sb-checkbox {
+  margin: 10px;
+}
+
+.sb-checkbox {
+  display: inline-block;
+  font-size: 0;
+}
+
+.sb-checkbox__input {
+  display: none;
+}
+
+.sb-checkbox__input:checked + .sb-checkbox__label:after {
+  opacity: 1;
+}
+
+.sb-checkbox__label {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sb-checkbox__label:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+.sb-checkbox__label:after {
+  content: "done";
+  font-family: "Material Icons";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-radius: 2px;
+  overflow: hidden;
+  text-align: center;
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+
+.sb-checkbox__label--red:before {
+  border-color: #ef5350;
+}
+
+.sb-checkbox__label--red:after {
+  background-color: #ef5350;
+  color: #fff;
+}
+
+/* checkbox clr ends */
+
+.signin-page .myinput[type="checkbox"]:before {
+  position: relative;
+  display: block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #808080;
+  content: "";
+  background: #fff;
+}
+
+.createNewPass-page .clr-9f {
+  color: #9f9f9f;
+}
+
+.createNewPass-page .bg-grad-login-header {
+  background-image: linear-gradient(to bottom, #ec1c24, #7a0511);
+}
+
+@media only screen and (max-width: 1160px) {
+  .header .p-res-hed {
+    padding-left: 0.5rem;
+  }
+
+  .header .f-14 {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header .p-res-hed {
+    padding-left: 0.5rem;
+  }
+
+  .header .f-14 {
+    font-size: 9.5px;
+  }
+}
+
+/* // second header for responsive starts*/
+
+.header-small {
+  display: none;
+}
+
+.swip_header_sml {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .swip_header_sml {
+    display: block;
+  }
+
+  .bg-red-res-hdr {
+    background-color: #fff;
+    color: black;
+    margin-top: 2px;
+    margin-right: 6px;
+  }
+
+  .header-full {
+    display: none;
+  }
+
+  .header-small {
+    display: block;
+  }
+
+  .header .flx-header-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-small .img_respon {
+    height: 40px;
+    padding: 5px 5px !important;
+    background-color: #fff !important;
+    /* width: 30px; */
+  }
+
+  .header-small .line-small-hdr {
+    margin-left: 10px;
+  }
+
+  .header-small .bg-red-hdr {
+    background-color: #dbdbdb;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .header-small .align-center {
+    align-self: center;
+  }
+
+  .clr-hom-sml-hdr {
+    color: #00171a;
+    text-decoration: none;
+  }
+
+  .clr-hom-sml-hdr :hover {
+    color: #202076 !important;
+    text-decoration: none;
+    /* border-bottom: 1px solid #df1921; */
+    /* padding-bottom: 0.5rem; */
+  }
+
+  .list-style-type-circle {
+    list-style-type: circle;
+  }
+
+  .flx-1 {
+    flex: 1;
+  }
+
+  .flx-2 {
+    flex: 2;
+  }
+
+  .flex-end-hdr-smll {
+    justify-content: flex-end;
+    cursor: pointer;
+    color: #df1921;
+  }
+
+  .flex-end-hdr-smll:hover {
+    color: #202076;
+  }
+
+  .close_btn_sml_hdr {
+    float: right;
+    margin-right: 1rem;
+  }
+
+  .MuiDrawer-root > .MuiPaper-root {
+    border-radius: 0px 0px 8px 8px;
+  }
+
+  .swip_header_sml .css-1ytz6dp {
+    background-color: #dbdbdb;
+  }
+
+  .pos-rel-top-four {
+    position: relative;
+    top: -7px;
+    left: 12px;
+  }
+
+  .content_control_swiphead_res_header {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px 30px;
+  }
+}
+
+/* // second header for responsive ends*/

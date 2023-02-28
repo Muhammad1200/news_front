@@ -1,0 +1,118 @@
+/* font family import starts here */
+
+@font-face {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Poppins-Medium"),
+    url("../fonts/Poppins-Medium.ttf") format("woff");
+}
+
+/* font family classes starts here */
+
+* {
+  font-family: "Poppins-Medium";
+  margin: 0;
+  padding: 0;
+}
+
+/* font sizes starts from here */
+
+p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.lh-05 {
+  line-height: 0.5;
+  margin-bottom: 0;
+}
+
+.lh-1 {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.height-5{
+  height: 50px!important;
+}
+
+.bt-red-selctd {
+  background-image: linear-gradient(to bottom, #ec1c24, #7a0511);
+  color: white;
+}
+
+.footer {
+  background-image: linear-gradient(to bottom, #c3c3c321, #ccc8c8de, #c3c3c382);
+  font-size: 11px;
+  padding: 1.25rem 0.25rem;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+input {
+  width: 100%;
+  background-color: #eeeeee;
+  font-family: "Lato-Bold";
+  border: 0;
+  padding: 1.3rem;
+  border-radius: 16px;
+  padding-left: 2rem;
+  background-color: #ebe9e9;
+  color: #7c7c7c;
+  font-family: "Lato-Bold";
+  font-size: 13px;
+}
+
+/* fonts adjustment in home page starts @992*/
+
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+}
+
+/* fonts adjustment in home page ends @992*/
+
+/* responsive fonts @425*/
+
+@media only screen and (max-width: 787px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .d-sm-none,
+  .d-xs-none{
+    display: none!important;
+  }
+}
+
+/* responsive fonts @425*/

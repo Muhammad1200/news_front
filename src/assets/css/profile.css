@@ -1,0 +1,225 @@
+.Profile .Profile_content {
+  margin-top: 3rem;
+}
+
+.Profile .ProfileSideTab {
+  position: sticky;
+  top: 10px;
+  margin-bottom: 140px;
+}
+
+.Profile .bt-grn {
+  color: white;
+  background: #e77960;
+  font-size: 13px;
+  border: 0;
+  border-radius: 0;
+  /* margin-bottom: 0.5rem; */
+}
+
+.Profile .grey_porfile_div {
+  background: #f5f5f5;
+  padding: 2rem 1.5rem;
+  margin-bottom: 15rem;
+}
+
+.Profile .my_acc_brdr {
+  font-weight: 600;
+  font-size: 12px;
+  color: #808080cc;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d3d3d380;
+}
+
+.Profile .iconz {
+  font-size: 15px;
+  position: relative;
+  top: 2px;
+  margin-right: 0.5rem;
+}
+
+.Profile .prof-p {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.Profile .logout_div {
+  padding-top: 10rem;
+  padding-left: 1rem;
+}
+
+.Profile .detail_box {
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.Profile .bordr-btm-lightgrey {
+  border-bottom: 2px solid lightgrey;
+}
+
+.Profile .p-head {
+  font-weight: 600;
+  margin: 0.8rem;
+  padding-left: 1.3rem;
+  font-size: 13px;
+}
+
+.Profile .p-detail {
+  margin: 0.8rem;
+  color: #8a8a8a;
+  font-size: 13px;
+}
+
+.Profile .edit {
+  color: #2382ff !important;
+  margin: 0.8rem;
+  width: max-content;
+  margin-left: auto;
+  /* font-size: 13px; */
+}
+
+.Profile .edit:hover {
+  color: #2382ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Profile .bordr-btm-lightgrey {
+  border-bottom: 1px solid lightgrey;
+  width: 98%;
+  margin: auto;
+}
+
+.Profile .profile_head {
+  font-size: 26px;
+  text-shadow: 0 0 1px black;
+  font-weight: 800;
+  margin-top: 3.8rem;
+}
+
+.Profile .User_details {
+  font-size: 12px;
+  color: #989898;
+  font-weight: 600;
+}
+
+/* customerLoyality */
+
+.Customer_loyality .gry-crd {
+  background-color: #eeeeee;
+  color: #989898;
+  margin-right: 1rem;
+  padding: 1.3rem;
+  margin-top: 1.5rem;
+  flex: 1;
+}
+
+.Customer_loyality .interest_design {
+  display: flex;
+}
+
+.Customer_loyality .interest_design input{
+  width: auto! important;
+  margin-left: 0.5rem;
+  margin-top: 2px;
+}
+
+.Customer_loyality .bldd {
+  font-weight: 900;
+}
+
+.Customer_loyality .lii {
+  font-size: 16px;
+  color: #989898;
+  line-height: 0;
+}
+
+.Customer_loyality .flx-crd {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Customer_loyality .sldr-bxx {
+  width: 100%;
+  background-color: white;
+  padding: 2px 1px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.Customer_loyality .wdth-orng {
+  background: #e77960;
+  padding: 4px 0;
+  border-radius: 2px;
+}
+
+.Customer_loyality .ul_tick_round_white {
+  /* background: url('../Images/'); */
+  background-position: 0;
+  background-repeat: no-repeat;
+  list-style: none;
+  margin: 6px 0 0;
+  padding-left: 0px;
+}
+
+.Customer_loyality .ul_pad_zero {
+  padding-left: 0;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+  .Profile .Profile_content {
+    margin-top: 2rem !important;
+  }
+  .Profile .ProfileSideTab {
+    margin-bottom: 0 !important;
+  }
+  .Profile .grey_porfile_div {
+    margin-bottom: 1.5rem !important;
+  }
+  .Profile .edit {
+    float: left;
+  }
+  .Profile .p-head {
+    padding-left: 0;
+  }
+  .Profile .logout_div {
+    padding-top: 3rem;
+  }
+  .BookingReferral .px-refrl-res {
+    padding: 0 1rem !important;
+  }
+  .BookingReferral div .ref_link {
+    width: 70px !important;
+    margin-bottom: 1rem;
+  }
+  .BookingReferral .copy_text_div {
+    overflow: scroll;
+  }
+  .BookingReferral .ml-0-res-refrl {
+    margin-left: 0 !important;
+  }
+  .BookingReferral .mt-res-refrl-txt {
+    position: relative;
+    top: 0.5rem;
+  }
+  .Customer_loyality .res-loylty-pad {
+    padding-left: 1rem !important;
+  }
+  .Customer_loyality .res_cstmrlylty_icon {
+    margin-right: 0.5rem;
+  }
+  .Customer_loyality .gry-crd {
+    font-size: 12px;
+    margin-bottom: 1rem;
+    margin-right: 0 !important;
+  }
+}
